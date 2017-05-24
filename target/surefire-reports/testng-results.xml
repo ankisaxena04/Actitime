@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[IE Launched]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to the actitime url]]>
+    </line>
+    <line>
+      <![CDATA[Home page title is verified]]>
+    </line>
+    <line>
+      <![CDATA[login successfully]]>
+    </line>
+    <line>
+      <![CDATA[logout successfully]]>
+    </line>
+    <line>
+      <![CDATA[browsers closed]]>
+    </line>
+    <line>
+      <![CDATA[IE Launched]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to the actitime url]]>
+    </line>
+    <line>
+      <![CDATA[Create Customer msg is displayed]]>
+    </line>
+    <line>
+      <![CDATA[browsers closed]]>
+    </line>
+    <line>
+      <![CDATA[IE Launched]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to the actitime url]]>
+    </line>
+    <line>
+      <![CDATA[Create project msg is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Project is successfully created]]>
+    </line>
+    <line>
+      <![CDATA[browsers closed]]>
+    </line>
+    <line>
+      <![CDATA[IE Launched]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to the actitime url]]>
+    </line>
+    <line>
+      <![CDATA[Deleted customer msg is displayed]]>
+    </line>
+    <line>
+      <![CDATA[browsers closed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="49877" started-at="2016-05-28T07:39:33Z" finished-at="2016-05-28T07:40:23Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="49877" started-at="2016-05-28T07:39:33Z" finished-at="2016-05-28T07:40:23Z">
+      <class name="com.actitime.scripts.LoginTest">
+        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:com.actitime.scripts.LoginTest@6442b0a6]" name="preCondition" is-config="true" duration-ms="4685" started-at="2016-05-28T13:09:33Z" finished-at="2016-05-28T13:09:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[IE Launched]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to the actitime url]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="loginTest()[pri:1, instance:com.actitime.scripts.LoginTest@6442b0a6]" name="loginTest" duration-ms="5730" started-at="2016-05-28T13:09:38Z" finished-at="2016-05-28T13:09:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Home page title is verified]]>
+            </line>
+            <line>
+              <![CDATA[login successfully]]>
+            </line>
+            <line>
+              <![CDATA[logout successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.actitime.scripts.LoginTest@6442b0a6]" name="postCondition" is-config="true" duration-ms="1624" started-at="2016-05-28T13:09:44Z" finished-at="2016-05-28T13:09:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTest.loginTest()[pri:1, instance:com.actitime.scripts.LoginTest@6442b0a6] output=Home page title is verified]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[browsers closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.actitime.scripts.LoginTest -->
+      <class name="com.actitime.scripts.CreateCustAndProjTest">
+        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:com.actitime.scripts.CreateCustAndProjTest@60f82f98]" name="preCondition" is-config="true" duration-ms="3674" started-at="2016-05-28T13:09:45Z" finished-at="2016-05-28T13:09:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[IE Launched]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to the actitime url]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="createCustomerTest()[pri:1, instance:com.actitime.scripts.CreateCustAndProjTest@60f82f98]" name="createCustomerTest" duration-ms="9165" started-at="2016-05-28T13:09:49Z" finished-at="2016-05-28T13:09:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Create Customer msg is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createCustomerTest -->
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.actitime.scripts.CreateCustAndProjTest@60f82f98]" name="postCondition" is-config="true" duration-ms="717" started-at="2016-05-28T13:09:58Z" finished-at="2016-05-28T13:09:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createCustomerTest status=SUCCESS method=CreateCustAndProjTest.createCustomerTest()[pri:1, instance:com.actitime.scripts.CreateCustAndProjTest@60f82f98] output=Create Customer msg is displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[browsers closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:com.actitime.scripts.CreateCustAndProjTest@60f82f98]" name="preCondition" is-config="true" duration-ms="2981" started-at="2016-05-28T13:09:59Z" finished-at="2016-05-28T13:10:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[IE Launched]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to the actitime url]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="createProjectTest()[pri:2, instance:com.actitime.scripts.CreateCustAndProjTest@60f82f98]" name="createProjectTest" duration-ms="8360" started-at="2016-05-28T13:10:02Z" finished-at="2016-05-28T13:10:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Create project msg is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Project is successfully created]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createProjectTest -->
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.actitime.scripts.CreateCustAndProjTest@60f82f98]" name="postCondition" is-config="true" duration-ms="707" started-at="2016-05-28T13:10:10Z" finished-at="2016-05-28T13:10:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createProjectTest status=SUCCESS method=CreateCustAndProjTest.createProjectTest()[pri:2, instance:com.actitime.scripts.CreateCustAndProjTest@60f82f98] output=Create project msg is displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[browsers closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:com.actitime.scripts.CreateCustAndProjTest@60f82f98]" name="preCondition" is-config="true" duration-ms="2793" started-at="2016-05-28T13:10:11Z" finished-at="2016-05-28T13:10:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[IE Launched]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to the actitime url]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="deleteCustomerTest()[pri:3, instance:com.actitime.scripts.CreateCustAndProjTest@60f82f98]" name="deleteCustomerTest" duration-ms="8680" started-at="2016-05-28T13:10:14Z" finished-at="2016-05-28T13:10:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Deleted customer msg is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteCustomerTest -->
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.actitime.scripts.CreateCustAndProjTest@60f82f98]" name="postCondition" is-config="true" duration-ms="726" started-at="2016-05-28T13:10:22Z" finished-at="2016-05-28T13:10:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteCustomerTest status=SUCCESS method=CreateCustAndProjTest.deleteCustomerTest()[pri:3, instance:com.actitime.scripts.CreateCustAndProjTest@60f82f98] output=Deleted customer msg is displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[browsers closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.actitime.scripts.CreateCustAndProjTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,10 @@
+<suite name="Suite">
+  <test name="Test">
+  <parameter name="browser" value="chrome" />
+    <classes>
+    <class name="com.actitime.scripts.LoginTest" />
+      <class name="com.actitime.scripts.CreateCustAndProjTest">
+      </class>
+    </classes>
+  </test>
+</suite>

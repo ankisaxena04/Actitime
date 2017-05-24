@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <parameter name="browser" value="ie"/>
+  <test name="Test">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="com.actitime.scripts.LoginTest"/>
+      <class name="com.actitime.scripts.CreateCustAndProjTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Failed suite [Suite] -->
